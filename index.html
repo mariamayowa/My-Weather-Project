@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-project">
+            <form id="search-form">
+                <input 
+                type ="search" 
+                placeholder ="Enter a city..." 
+                required class ="search-input" 
+                id ="search-input"/>
+
+                <input 
+                type ="submit" 
+                value ="Search" 
+                class ="search-button"/>
+            </form>
+
+    <main>        
+            <div class="current-temperature">
+            <img src="src/weather-icon.png" class="temp-icon">
+            <h2 class="temp-value">21°c</h2>
+            <h1 class="current-city">Paris</h1>
+            <div class="details">
+                <div class="col">
+                    <img src="src/humidity.png">
+                    <div>
+                        <p class="humidity">87%</p>
+                        <p>Humidity</p>
+                    </div>
+
+                <div class="col">
+                    <img src="src/wind.png">
+                    <div>
+                        <p class="Wind">7.6km/h</p>
+                        <p>Wind</p>
+                    </div>  
+            </div>
+    </main>
+        
+<script>
+const apiKey = "56c69f6a38fca074e41e974663bdce8f";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=london";
+
+const searchBox = document.querySelector(".searchForm input");
+const searchBtn = document.querySelector(".searchForm button");
+
+async function checkWeather(currentcity){
+    const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
+    var data = await response.json();
+
+}
+
+checkWeather();
+
+</script>
+    
+</body>
+</html>
