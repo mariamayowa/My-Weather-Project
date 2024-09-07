@@ -54,12 +54,13 @@ header{
 }
 
 .current-temperature h1{
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 500;
+    margin: 30px 0;
 }
 
 .current-temperature h2{
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 400;
     margin-top: -10px;
 }
@@ -70,7 +71,7 @@ header{
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .col{
@@ -86,7 +87,7 @@ header{
 }
 
 .humidity, .Wind{
-    font-size: 25px;
+    font-size: 15px;
     margin-top:-6px;
 }
 
