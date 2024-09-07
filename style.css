@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #c4e5f2;
+    background-color: #d4ebf4;
 }
 
 .weather-project{
@@ -15,9 +15,10 @@ body{
     padding:40px 35px;
     width: 90%;
     max-width: 470px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
-    background: linear-gradient(135deg, #67d3fd, #ffe4fe);
+    background: linear-gradient(135deg, #ffffff, #def1ff);
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
 .search-form{
@@ -67,4 +68,9 @@ body{
 .humidity, .Wind{
     font-size: 25px;
     margin-top:-6px;
+}
+
+footer{
+    font-size: 12px; 
+    color: grey;
 }
