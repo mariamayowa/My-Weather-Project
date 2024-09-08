@@ -60,6 +60,11 @@ header{
     margin-top: 30px;
 }
 
+span{
+    font-size: 14px; 
+    color: grey;
+}
+
 .current-temperature h2{
     font-size: 25px;
     font-weight: 400;
