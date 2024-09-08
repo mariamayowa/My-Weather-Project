@@ -56,13 +56,18 @@ header{
 .current-temperature h1{
     font-size: 48px;
     font-weight: 500;
-    margin: 30px 0;
+    margin-bottom: 0;
+    margin-top: 30px;
 }
 
 .current-temperature h2{
     font-size: 25px;
     font-weight: 400;
-    margin-top: -10px;
+    margin: -10px;
+}
+
+.day-time{
+    padding: 0px;
 }
 
 .details{
@@ -78,7 +83,7 @@ header{
     display: flex;
     align-items: center;
     text-align:left;
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 .col img{
