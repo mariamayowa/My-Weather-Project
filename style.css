@@ -48,9 +48,8 @@ header{
     font-size: 13px;
 }
 
-.current-temperature-icon{
-    width: 170px;
-    margin-top: 30px;
+.temp-icon{
+    height: 70px;
 }
 
 .current-temperature h1{
