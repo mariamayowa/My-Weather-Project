@@ -48,10 +48,6 @@ header{
     font-size: 13px;
 }
 
-.temp-icon{
-    height: 70px;
-}
-
 .current-temperature h1{
     font-size: 48px;
     font-weight: 500;
@@ -70,10 +66,6 @@ span{
     margin: -10px;
 }
 
-.time{
-    padding: 0px;
-}
-
 .details{
     display: flex;
     align-items: center;
@@ -81,23 +73,6 @@ span{
     padding: 0 20px;
     margin-top: 50px;
     margin-bottom: 30px;
-}
-
-.col{
-    display: flex;
-    align-items: center;
-    text-align:left;
-    margin-left: 70px;
-}
-
-.col img{
-    width: 60px;
-    margin-right: 10px;
-}
-
-.humidity, .Wind{
-    font-size: 15px;
-    margin-top:-6px;
 }
 
 .weather-forecast-date{
