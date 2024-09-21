@@ -75,7 +75,13 @@ span{
     margin-bottom: 30px;
 }
 
+.weather-forecast{
+    display: flex;
+    justify-content: space-between;
+}
+
 .weather-forecast-date{
+    text-align: center;
     color: rgb(0, 0, 0);
     font-size: 15px;
     line-height: 20px;
@@ -85,6 +91,7 @@ span{
 .weather-forecast-icon{
     font-size: 20px;
     margin-top: 10px;
+    text-align: center;
 }
 
 .weather-forecast-temp{
@@ -105,4 +112,5 @@ footer{
     border-top: 1px solid #d4ebf4;
     padding: 20px 0 0 0;
     text-align: center;
+    margin-top: 30px;
 }
